@@ -1,0 +1,15 @@
+def TampilAdmin():
+    print('============================================================================')
+    print('                         Rumah Sakit Mardi Waluyo                           ')                       
+    print('============================================================================')
+    print("1. Identitas Pasien ")
+    print("2. Pesan Ruangan ")
+    print("3. Diagnosa Penyakit")
+    print("4. Simpan Data")
+    print("5. Tampilkan Data Pasien ")
+    print('6. Cetak Bukti Pembayaran')
+    print("7. Selesai")
+    print("======================================")
+    print("Masukkan Pilihan : ", end="")
+    a = int(input())
+    return a
